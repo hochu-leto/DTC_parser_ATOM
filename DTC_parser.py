@@ -1,7 +1,11 @@
-from tkinter import filedialog
+from tkinter import filedialog, Tk, Toplevel, Label
+from tkinter import messagebox as mb
+
 
 import pandas as pd
 from deep_translator import GoogleTranslator
+
+from tk_dialog_example import wait
 
 DTC = 'DTC'
 DTC_Layout = 'DTCs Layout'
@@ -42,6 +46,15 @@ cjk_ranges = [
     (0x2CEB0, 0x2EBEF),
     (0x2F800, 0x2FA1F)
 ]
+
+
+def wait_wn(message):
+    win = Toplevel(Tk())
+    win.transient()
+    win.title('Wait')
+    Label(win, text=message).pack()
+    return win
+
 
 
 def is_cjk(char):
@@ -94,12 +107,16 @@ def get_df_from_dtc_layout(file_locate: str) -> pd.DataFrame:
     if DTC_Layout in pd.ExcelFile(file_locate).sheet_names:
         df_dtc_sheet = pd.read_excel(file_locate, sheet_name=DTC_Layout, index_col=1, header=1)
         for dtc in df_dtc_sheet.items():
-            if dtc_layout_headers_list_to_df[1] in dtc[0]:
+            if dtc_layout_headers_list_to_df[1] in dtc[0]:  # DTC Description
+                # mb.showinfo('Get DTC from DTCs_Layout', 'Checking the DTC Description...')
+                wait_win = wait_wn('Checking the DTC Description...')
+                print('Checking the DTC Description...')
                 list_dtc_for_translate = dtc[1]
 
                 for dtc_for_translate in list_dtc_for_translate:
-                    dtc_eng_list = [i for i in dtc_for_translate.split() if is_str_cjk(i)]
-                    dtc_cjk_list = [i for i in dtc_for_translate.split() if not is_str_cjk(i)]
+                    print('    Translate ')
+                    dtc_cjk_list = [i for i in dtc_for_translate.split() if is_str_cjk(i)]
+                    dtc_eng_list = [i for i in dtc_for_translate.split() if not is_str_cjk(i) and '_' not in i]
 
                     dtc_english_description = ' '.join(dtc_eng_list) if dtc_eng_list else ' '.join([
                         GoogleTranslator(source=dict_of_languages['Chinese'],
@@ -112,16 +129,21 @@ def get_df_from_dtc_layout(file_locate: str) -> pd.DataFrame:
                 df_dtc_sheet[language_to_translate] = russian_dtc_list
                 df_dtc_sheet['English'] = english_dtc_list
                 # df_dtc_sheet['Chinese'] = ibs_chinese_dtc_list
-            elif dtc_layout_headers_list_to_df[0] in dtc[0]:
+                wait_win.destroy()
+            elif dtc_layout_headers_list_to_df[0] in dtc[0]:    # DTC Display
+                # mb.showinfo('Get DTC from DTCs_Layout', 'Checking the DTC Display...')
+                print('Checking the DTC Display...')
                 # это, конечно, порнуха
                 df_dtc_sheet['3-Bytes DTC'] = dtc[1]
                 df_dtc_sheet['Hex Value\n[hex]'] = [dtc_3_byte_to_hex(i) for i in dtc[1]]
-            elif dtc_layout_headers_list_to_df[2] in dtc[0]:
+            elif dtc_layout_headers_list_to_df[2] in dtc[0]:    # Repair action
+                # mb.showinfo('Get DTC from DTCs_Layout', 'Checking the Repair action...')
+                print('Checking the Repair action...')
                 list_repair_for_translate = dtc[1]
                 for repair_for_translate in list_repair_for_translate:
                     english_sentence = [i for i in repair_for_translate.split() if
                                         not is_str_cjk(i)]
-                    english_desc = '\n'.join(english_sentence)
+                    english_desc = ' '.join(english_sentence)
                     list_for_english_repair.append(english_desc)
                     list_for_translated_repair.append(GoogleTranslator(source=dict_of_languages[language],
                                                                        target=dict_of_languages[language_to_translate]
@@ -163,8 +185,10 @@ def dtc_3_byte_to_hex(dtc_3_byte: str) -> str:  # string in HEX without "0x"
 
 
 if __name__ == '__main__':
+    # root = Tk()
     file_location = filedialog.askopenfilename(
         filetypes=[("Excel files", ".xlsx")],
     )
     # print(get_df_from_questionary(file_location)['Chinese'])
+    # root.mainloop()
     print(get_df_from_dtc_layout(file_location))
