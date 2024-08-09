@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DTCpool xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns_xsd="http://www.w3.org/2001/XMLSchema">
+        <DTC Number="1">
+                <ecode>908017</ecode>
+                <titleEN>(B108017)Battery Voltage High</titleEN>
+                <titleRU>(B108017)Высокое напряжение батареи</titleRU>
+                <titleCH>(B108017)蓄电池电压过高</titleCH>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="2">
+                <ecode>908116</ecode>
+                <titleEN>(B108116)Battery Voltage Low</titleEN>
+                <titleRU>(B108116)Низкое напряжение батареи</titleRU>
+                <titleCH>(B108116)蓄电池电压过低</titleCH>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+</DTCpool>

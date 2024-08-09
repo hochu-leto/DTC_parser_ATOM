@@ -1,0 +1,3193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DTCpool xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns_xsd="http://www.w3.org/2001/XMLSchema">
+        <DTC Number="1">
+                <ecode>500004</ecode>
+                <titleEN>(C100004)ECU internal Fault(MCAL MCU module)</titleEN>
+                <titleRU>(C100004)Внутренняя неисправность ЭБУ (модуль MCAL MCU)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="2">
+                <ecode>500104</ecode>
+                <titleEN>(C100104)ECU internal Fault(MCAL STM module)</titleEN>
+                <titleRU>(C100104)Внутренняя неисправность ЭБУ (модуль MCAL STM)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="3">
+                <ecode>500204</ecode>
+                <titleEN>(C100204)ECU internal Fault(SMU MCAL module)</titleEN>
+                <titleRU>(C100204)Внутренняя неисправность ЭБУ (модуль SMU MCAL)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="4">
+                <ecode>500304</ecode>
+                <titleEN>(C100304)ECU internal Fault(WDG MCAL module)</titleEN>
+                <titleRU>(C100304)Внутренняя неисправность ЭБУ (модуль WDG MCAL)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="5">
+                <ecode>500404</ecode>
+                <titleEN>(C100404)ECU chip internal fault (QSPI MCAL fault)</titleEN>
+                <titleRU>(C100404)Внутренняя неисправность микросхемы ЭБУ (неисправность QSPI MCAL)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="6">
+                <ecode>500504</ecode>
+                <titleEN>(C100504)ECU internal Fault(FEE MCAL module)</titleEN>
+                <titleRU>(C100504)Внутренняя неисправность ЭБУ (модуль FEE MCAL)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="7">
+                <ecode>500604</ecode>
+                <titleEN>(C100604)ECU internal Fault(EDSADC MCAL module)</titleEN>
+                <titleRU>(C100604)Внутренняя неисправность ЭБУ (модуль EDSADC MCAL)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="8">
+                <ecode>500704</ecode>
+                <titleEN>(C100704)ECU internal Fault(EVADC MCAL module)</titleEN>
+                <titleRU>(C100704)Внутренняя неисправность ЭБУ (модуль EVADC MCAL)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="9">
+                <ecode>500809</ecode>
+                <titleEN>(C100809)ECU internal Fault(ADC module time out)</titleEN>
+                <titleRU>(C100809)Внутренняя неисправность ЭБУ (тайм-аут модуля АЦП)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="10">
+                <ecode>500916</ecode>
+                <titleEN>(C100916)ECU undervoltage fault</titleEN>
+                <titleRU>(C100916)Ошибка пониженного напряжения ЭБУ</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="11">
+                <ecode>500A17</ecode>
+                <titleEN>(C100A17)ECU overvoltage fault</titleEN>
+                <titleRU>(C100A17)Ошибка перенапряжения ЭБУ</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="12">
+                <ecode>500B01</ecode>
+                <titleEN>(C100B01)ESC-OFF switch fault</titleEN>
+                <titleRU>(C100B01)Неисправность выключателя ESC-OFF</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="13">
+                <ecode>500C01</ecode>
+                <titleEN>(C100C01)AVH switch fault</titleEN>
+                <titleRU>(C100C01)Неисправность переключателя AVH</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="14">
+                <ecode>500D01</ecode>
+                <titleEN>(C100D01)HDC switch fault</titleEN>
+                <titleRU>(C100D01)Неисправность переключателя HDC</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="15">
+                <ecode>500E01</ecode>
+                <titleEN>(C100E01)TPMS switch fault</titleEN>
+                <titleRU>(C100E01)Неисправность переключателя TPMS</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="16">
+                <ecode>500F01</ecode>
+                <titleEN>(C100F01)EPB switch fault</titleEN>
+                <titleRU>(C100F01)Неисправность переключателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="17">
+                <ecode>501009</ecode>
+                <titleEN>(C101009)Chip internal fault(SPI com fault)</titleEN>
+                <titleRU>(C101009)Внутренняя ошибка чипа (ошибка SPI com)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="18">
+                <ecode>501109</ecode>
+                <titleEN>(C101109)Chip internal fault(voltage regulator fault)</titleEN>
+                <titleRU>(C101109)Внутренняя неисправность чипа (неисправность регулятора напряжения)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="19">
+                <ecode>501209</ecode>
+                <titleEN>(C101209)Chip self test fault</titleEN>
+                <titleRU>(C101209)Ошибка самотестирования чипа</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="20">
+                <ecode>501309</ecode>
+                <titleEN>(C101309)Chip internal fault（CAN transceiver fault)</titleEN>
+                <titleRU>(C101309)Внутренняя неисправность чипа (неисправность приемопередатчика CAN)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="21">
+                <ecode>501409</ecode>
+                <titleEN>(C101409)Chip internal fault（LIN transceiver fault)</titleEN>
+                <titleRU>(C101409)Внутренняя неисправность чипа (неисправность приемопередатчика LIN)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="22">
+                <ecode>501504</ecode>
+                <titleEN>(C101504)Chip internal fault(SPI com fault)</titleEN>
+                <titleRU>(C101504)Внутренняя ошибка чипа (ошибка SPI com)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="23">
+                <ecode>501604</ecode>
+                <titleEN>(C101604)Chip internal fault(voltage regulator fault)</titleEN>
+                <titleRU>(C101604)Внутренняя неисправность чипа (неисправность регулятора напряжения)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="24">
+                <ecode>501704</ecode>
+                <titleEN>(C101704)Chip internal fault(GND lost fault)</titleEN>
+                <titleRU>(C101704)Внутренняя неисправность чипа (ошибка потери GND)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="25">
+                <ecode>501804</ecode>
+                <titleEN>(C101804)Chip internal fault(logic Monitoring Module fault)</titleEN>
+                <titleRU>(C101804)Внутренняя неисправность чипа (неисправность логического модуля мониторинга)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="26">
+                <ecode>501904</ecode>
+                <titleEN>(C101904)Chip internal fault(high temp fault)</titleEN>
+                <titleRU>(C101904)Внутренняя неисправность чипа (высокая температура)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="27">
+                <ecode>501A04</ecode>
+                <titleEN>(C101A04)Chip internal fault(SPI com fault)</titleEN>
+                <titleRU>(C101A04)Внутренняя ошибка чипа (ошибка SPI com)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="28">
+                <ecode>501B04</ecode>
+                <titleEN>(C101B04)Chip internal fault(voltage regulator fault)</titleEN>
+                <titleRU>(C101B04)Внутренняя неисправность чипа (неисправность регулятора напряжения)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="29">
+                <ecode>501C04</ecode>
+                <titleEN>(C101C04)Chip internal fault(GND lost fault)</titleEN>
+                <titleRU>(C101C04)Внутренняя неисправность чипа (ошибка потери заземления)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="30">
+                <ecode>501D04</ecode>
+                <titleEN>(C101D04)Chip internal fault(logic Monitoring Module fault)</titleEN>
+                <titleRU>(C101D04)Внутренняя неисправность чипа (неисправность логического модуля мониторинга)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="31">
+                <ecode>501E04</ecode>
+                <titleEN>(C101E04)Chip internal fault(high temp fault)</titleEN>
+                <titleRU>(C101E04)Внутренняя неисправность чипа (высокая температура)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="32">
+                <ecode>501F09</ecode>
+                <titleEN>(C101F09)Valve relay power error</titleEN>
+                <titleRU>(C101F09)Ошибка питания реле клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="33">
+                <ecode>502009</ecode>
+                <titleEN>(C102009)Valve relay general error</titleEN>
+                <titleRU>(C102009)Общая ошибка реле клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="34">
+                <ecode>502113</ecode>
+                <titleEN>(C102113)Valve relay open load error</titleEN>
+                <titleRU>(C102113)Ошибка нагрузки реле клапана открыта</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="35">
+                <ecode>502212</ecode>
+                <titleEN>(C102212)Valve relay shor load error</titleEN>
+                <titleRU>(C102212)Ошибка короткой нагрузки реле клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="36">
+                <ecode>502311</ecode>
+                <titleEN>(C102311)Valve Coil GND short error</titleEN>
+                <titleRU>(C102311)Ошибка короткого замыкания GND катушки клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="37">
+                <ecode>502409</ecode>
+                <titleEN>(C102409)Valve relay general error</titleEN>
+                <titleRU>(C102409)Общая ошибка реле клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="38">
+                <ecode>502513</ecode>
+                <titleEN>(C102513)Valve relay open load error</titleEN>
+                <titleRU>(C102513)Ошибка нагрузки реле клапана открыта</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="39">
+                <ecode>502612</ecode>
+                <titleEN>(C102612)Valve relay short load error</titleEN>
+                <titleRU>(C102612)Ошибка короткого замыкания реле клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="40">
+                <ecode>502711</ecode>
+                <titleEN>(C102711)Valve Coil GND short error</titleEN>
+                <titleRU>(C102711)Ошибка короткого замыкания GND катушки клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="41">
+                <ecode>502809</ecode>
+                <titleEN>(C102809)Front left inlet valve coil general error</titleEN>
+                <titleRU>(C102809)Общая ошибка катушки переднего левого впускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="42">
+                <ecode>502913</ecode>
+                <titleEN>(C102913)Front left inlet valve coil open load error</titleEN>
+                <titleRU>(C102913)Ошибка нагрузки катушки переднего левого впускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="43">
+                <ecode>502A19</ecode>
+                <titleEN>(C102A19)Front left inlet valve coil over current error</titleEN>
+                <titleRU>(C102A19)Ошибка перегрузки по току катушки переднего левого впускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="44">
+                <ecode>502B09</ecode>
+                <titleEN>(C102B09)Front left outlet valve coil general error</titleEN>
+                <titleRU>(C102B09)Общая ошибка катушки переднего левого выпускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="45">
+                <ecode>502C13</ecode>
+                <titleEN>(C102C13)Front left outlet valve coil open load error</titleEN>
+                <titleRU>(C102C13)Ошибка нагрузки катушки переднего левого выпускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="46">
+                <ecode>502D19</ecode>
+                <titleEN>(C102D19)Front left outlet valve coil over current error</titleEN>
+                <titleRU>(C102D19)Ошибка перегрузки по току катушки переднего левого выпускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="47">
+                <ecode>502E09</ecode>
+                <titleEN>(C102E09)Front right inlet valve coil general error</titleEN>
+                <titleRU>(C102E09)Общая ошибка катушки впускного клапана спереди справа</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="48">
+                <ecode>502F13</ecode>
+                <titleEN>(C102F13)Front right inlet valve coil open load error</titleEN>
+                <titleRU>(C102F13)Ошибка нагрузки катушки переднего правого впускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="49">
+                <ecode>503019</ecode>
+                <titleEN>(C103019)Front right inlet valve coil over current error</titleEN>
+                <titleRU>(C103019)Ошибка превышения тока катушки переднего правого впускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="50">
+                <ecode>503109</ecode>
+                <titleEN>(C103109)Front right inlet valve coil general error</titleEN>
+                <titleRU>(C103109)Общая ошибка катушки впускного клапана спереди справа</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="51">
+                <ecode>503213</ecode>
+                <titleEN>(C103213)Front right inlet valve coil open load error</titleEN>
+                <titleRU>(C103213)Ошибка нагрузки катушки переднего правого впускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="52">
+                <ecode>503319</ecode>
+                <titleEN>(C103319)Front right outlet valve coil over current error</titleEN>
+                <titleRU>(C103319)Ошибка перегрузки по току катушки переднего правого выпускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="53">
+                <ecode>503409</ecode>
+                <titleEN>(C103409)Rear left inlet valve coil general error</titleEN>
+                <titleRU>(C103409)Общая ошибка катушки заднего левого впускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="54">
+                <ecode>503513</ecode>
+                <titleEN>(C103513)Rear left inlet valve coil open load error</titleEN>
+                <titleRU>(C103513)Ошибка нагрузки катушки заднего левого впускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="55">
+                <ecode>503619</ecode>
+                <titleEN>(C103619)Rear left inlet valve coil over current error</titleEN>
+                <titleRU>(C103619)Ошибка превышения тока катушки заднего левого впускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="56">
+                <ecode>503709</ecode>
+                <titleEN>(C103709)Rear left outlet valve coil general error </titleEN>
+                <titleRU>(C103709)Общая ошибка катушки заднего левого выпускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="57">
+                <ecode>503813</ecode>
+                <titleEN>(C103813)Rear left outlet valve coil open load error</titleEN>
+                <titleRU>(C103813)Ошибка нагрузки катушки заднего левого выпускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="58">
+                <ecode>503919</ecode>
+                <titleEN>(C103919)Rear left outlet valve coil over current fault</titleEN>
+                <titleRU>(C103919)Неисправность катушки заднего левого выпускного клапана, перегрузка по току</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="59">
+                <ecode>503A09</ecode>
+                <titleEN>(C103A09)Rear right inlet valve coil general error</titleEN>
+                <titleRU>(C103A09)Общая ошибка катушки заднего правого впускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="60">
+                <ecode>503B13</ecode>
+                <titleEN>(C103B13)Rear right inlet valve coil open load error</titleEN>
+                <titleRU>(C103B13)Ошибка нагрузки катушки заднего правого впускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="61">
+                <ecode>503C19</ecode>
+                <titleEN>(C103C19)Rear right inlet valve coil over current error</titleEN>
+                <titleRU>(C103C19)Ошибка превышения тока катушки заднего правого впускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="62">
+                <ecode>503D09</ecode>
+                <titleEN>(C103D09)Rear right outlet valve coil general error</titleEN>
+                <titleRU>(C103D09)Общая ошибка катушки заднего правого выпускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="63">
+                <ecode>503E13</ecode>
+                <titleEN>(C103E13)Rear right outlet valve coil open load error</titleEN>
+                <titleRU>(C103E13)Ошибка нагрузки катушки заднего правого выпускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="64">
+                <ecode>503F19</ecode>
+                <titleEN>(C103F19)Rear right outlet valve coil over current error</titleEN>
+                <titleRU>(C103F19)Ошибка перегрузки по току катушки заднего правого выпускного клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="65">
+                <ecode>504009</ecode>
+                <titleEN>(C104009)Coupling valve(CSV) coil 1 general error</titleEN>
+                <titleRU>(C104009)Общая ошибка катушки 1 соединительного клапана (CSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="66">
+                <ecode>504113</ecode>
+                <titleEN>(C104113)Coupling valve(CSV) coil 1 open load error</titleEN>
+                <titleRU>(C104113)Ошибка нагрузки катушки 1 соединительного клапана (CSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="67">
+                <ecode>504219</ecode>
+                <titleEN>(C104219)Coupling valve(CSV) coil 1 over current error</titleEN>
+                <titleRU>(C104219)Ошибка перегрузки по току катушки 1 соединительного клапана (CSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="68">
+                <ecode>504309</ecode>
+                <titleEN>(C104309)Coupling valve(CSV) coil 2 general error</titleEN>
+                <titleRU>(C104309)Общая ошибка катушки 2 соединительного клапана (CSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="69">
+                <ecode>504413</ecode>
+                <titleEN>(C104413)Coupling valve(CSV) coil 2 open load error</titleEN>
+                <titleRU>(C104413)Ошибка нагрузки катушки 2 соединительного клапана (CSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="70">
+                <ecode>504519</ecode>
+                <titleEN>(C104519)Coupling valve(CSV) coil 2 over current error</titleEN>
+                <titleRU>(C104519)Ошибка перегрузки по току катушки 2 соединительного клапана (CSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="71">
+                <ecode>504609</ecode>
+                <titleEN>(C104609)Plunger valve(PSV) coil 1 general error</titleEN>
+                <titleRU>(C104609)Общая ошибка катушки 1 плунжерного клапана (PSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="72">
+                <ecode>504713</ecode>
+                <titleEN>(C104713)Plunger valve(PSV) coil 1 open load error</titleEN>
+                <titleRU>(C104713)Ошибка открытой нагрузки катушки 1 плунжерного клапана (PSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="73">
+                <ecode>504819</ecode>
+                <titleEN>(C104819)Plunger valve(PSV) coil 1  over current error</titleEN>
+                <titleRU>(C104819)Ошибка перегрузки по току катушки 1 плунжерного клапана (PSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="74">
+                <ecode>504909</ecode>
+                <titleEN>(C104909)Plunger valve(PSV) coil 2 general error</titleEN>
+                <titleRU>(C104909)Общая ошибка катушки 2 плунжерного клапана (PSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="75">
+                <ecode>504A13</ecode>
+                <titleEN>(C104A13)Plunger valve(PSV) coil 2 open load error</titleEN>
+                <titleRU>(C104A13)Ошибка нагрузки катушки 2 плунжерного клапана (PSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="76">
+                <ecode>504B19</ecode>
+                <titleEN>(C104B19)Plunger valve(PSV) coil 2 over current error</titleEN>
+                <titleRU>(C104B19)Ошибка перегрузки по току катушки 2 плунжерного клапана (PSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="77">
+                <ecode>504C09</ecode>
+                <titleEN>(C104C09)Pedal feeling Simulator Valve(SSV) coil general fault</titleEN>
+                <titleRU>(C104C09)Общая неисправность катушки клапана-симулятора чувствительности педали (SSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="78">
+                <ecode>504D13</ecode>
+                <titleEN>(C104D13)Pedal feeling Simulator Valve(SSV) coil open load error</titleEN>
+                <titleRU>(C104D13)Ошибка нагрузки катушки клапана-симулятора чувствительности педали (SSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="79">
+                <ecode>504E19</ecode>
+                <titleEN>(C104E19)Pedal feeling Simulator Valve(SSV) coil over current error</titleEN>
+                <titleRU>(C104E19)Ошибка перегрузки по току катушки клапана-симулятора педали (SSV)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="80">
+                <ecode>504F09</ecode>
+                <titleEN>(C104F09)Test valve coil general error</titleEN>
+                <titleRU>(C104F09)Общая ошибка катушки тестового клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="81">
+                <ecode>505013</ecode>
+                <titleEN>(C105013)Test valve coil open load error</titleEN>
+                <titleRU>(C105013)Ошибка нагрузки катушки тестового клапана открыта</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="82">
+                <ecode>505119</ecode>
+                <titleEN>(C105119)Test valve coil over current error</titleEN>
+                <titleRU>(C105119)Ошибка перегрузки по току катушки тестового клапана</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="83">
+                <ecode>505213</ecode>
+                <titleEN>(C105213)Front left wheel speed sensor open load error</titleEN>
+                <titleRU>(C105213)Ошибка обрыва нагрузки датчика скорости переднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="84">
+                <ecode>505312</ecode>
+                <titleEN>(C105312)Front left wheel speed sensor power supply line Batt short error</titleEN>
+                <titleRU>(C105312)Ошибка короткого замыкания в линии питания датчика скорости переднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="85">
+                <ecode>505411</ecode>
+                <titleEN>(C105411)Front left wheel speed sensor power supply line GND short error</titleEN>
+                <titleRU>(C105411)Ошибка короткого замыкания на массу линии питания датчика скорости переднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="86">
+                <ecode>505519</ecode>
+                <titleEN>(C105519)Front left wheel speed sensor over current error</titleEN>
+                <titleRU>(C105519)Ошибка превышения тока датчика скорости переднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="87">
+                <ecode>505609</ecode>
+                <titleEN>(C105609)Front left wheel speed sensor general error</titleEN>
+                <titleRU>(C105609)Общая ошибка датчика скорости переднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="88">
+                <ecode>505713</ecode>
+                <titleEN>(C105713)Front right wheel speed sensor open load error</titleEN>
+                <titleRU>(C105713)Ошибка обрыва нагрузки датчика скорости переднего правого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="89">
+                <ecode>505812</ecode>
+                <titleEN>(C105812)Front right wheel speed sensor power supply line Batt short error</titleEN>
+                <titleRU>(C105812)Ошибка короткого замыкания в линии питания датчика скорости переднего правого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="90">
+                <ecode>505911</ecode>
+                <titleEN>(C105911)Front right wheel speed sensor supply line GND short error</titleEN>
+                <titleRU>(C105911)Ошибка замыкания на массу линии питания датчика скорости переднего правого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="91">
+                <ecode>505A19</ecode>
+                <titleEN>(C105A19)Front right wheel speed sensor over current error</titleEN>
+                <titleRU>(C105A19)Ошибка датчика скорости переднего правого колеса по току</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="92">
+                <ecode>505B09</ecode>
+                <titleEN>(C105B09)Front right wheel speed sensor general error</titleEN>
+                <titleRU>(C105B09)Общая ошибка датчика скорости переднего правого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="93">
+                <ecode>505C13</ecode>
+                <titleEN>(C105C13)Rear left wheel speed sensor open load error</titleEN>
+                <titleRU>(C105C13)Ошибка открытой нагрузки датчика скорости заднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="94">
+                <ecode>505D12</ecode>
+                <titleEN>(C105D12)Rear left wheel speed sensor power supply line Batt short error</titleEN>
+                <titleRU>(C105D12)Ошибка короткого замыкания в линии питания датчика скорости заднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="95">
+                <ecode>505E11</ecode>
+                <titleEN>(C105E11)Rear left wheel speed sensor power supply line GND short error</titleEN>
+                <titleRU>(C105E11)Ошибка короткого замыкания на массу линии питания датчика скорости заднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="96">
+                <ecode>505F19</ecode>
+                <titleEN>(C105F19)Rear left wheel speed sensor over current error</titleEN>
+                <titleRU>(C105F19)Ошибка превышения тока датчика скорости заднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="97">
+                <ecode>506009</ecode>
+                <titleEN>(C106009)Rear left wheel speed sensor general error</titleEN>
+                <titleRU>(C106009)Общая ошибка датчика скорости заднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="98">
+                <ecode>506113</ecode>
+                <titleEN>(C106113)Rear right wheel speed sensor open load error</titleEN>
+                <titleRU>(C106113)Ошибка обрыва цепи датчика скорости заднего правого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="99">
+                <ecode>506212</ecode>
+                <titleEN>(C106212)Rear right wheel speed sensor power supply line Batt short error</titleEN>
+                <titleRU>(C106212)Ошибка короткого замыкания в линии питания датчика скорости заднего правого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="100">
+                <ecode>506311</ecode>
+                <titleEN>(C106311)Rear right wheel speed sensor power supply line GND short error</titleEN>
+                <titleRU>(C106311)Ошибка короткого замыкания на массу линии питания датчика скорости заднего правого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="101">
+                <ecode>506419</ecode>
+                <titleEN>(C106419)Rear right wheel speed sensor over current error</titleEN>
+                <titleRU>(C106419)Ошибка превышения тока датчика скорости заднего правого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="102">
+                <ecode>506509</ecode>
+                <titleEN>(C106509)Rear right wheel speed sensor general error</titleEN>
+                <titleRU>(C106509)Общая ошибка датчика скорости заднего правого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="103">
+                <ecode>506601</ecode>
+                <titleEN>(C106601)Wheel speed wire signal error</titleEN>
+                <titleRU>(C106601)Ошибка сигнала провода скорости колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="104">
+                <ecode>506701</ecode>
+                <titleEN>(C106701)Vehicle speed wire signal error</titleEN>
+                <titleRU>(C106701)Ошибка сигнала провода скорости автомобиля</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="105">
+                <ecode>506809</ecode>
+                <titleEN>(C106809)Pedal trave sensor signal error</titleEN>
+                <titleRU>(C106809)Ошибка сигнала датчика хода педали</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="106">
+                <ecode>506901</ecode>
+                <titleEN>(C106901)EPB switch check circuit feed back error</titleEN>
+                <titleRU>(C106901)Ошибка обратной связи цепи проверки переключателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="107">
+                <ecode>506A01</ecode>
+                <titleEN>(C106A01)ESC-OFF switch lamp error</titleEN>
+                <titleRU>(C106A01)Ошибка лампы выключателя ESC-OFF</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="108">
+                <ecode>506B01</ecode>
+                <titleEN>(C106B01)EPB switch lamp error</titleEN>
+                <titleRU>(C106B01)Ошибка лампы переключателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="109">
+                <ecode>506C01</ecode>
+                <titleEN>(C106C01)AVH switch lamp error</titleEN>
+                <titleRU>(C106C01)Ошибка лампы переключателя AVH</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="110">
+                <ecode>506D01</ecode>
+                <titleEN>(C106D01)HDC siwtch lamp error</titleEN>
+                <titleRU>(C106D01)Ошибка лампы переключателя HDC</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="111">
+                <ecode>506E01</ecode>
+                <titleEN>(C106E01)TPMS switch lamp error</titleEN>
+                <titleRU>(C106E01)Ошибка переключателя TPMS</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="112">
+                <ecode>506F00</ecode>
+                <titleEN>(C106F00)Pedal travel sensor caliration error</titleEN>
+                <titleRU>(C106F00)Ошибка калибровки датчика хода педали</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="113">
+                <ecode>507000</ecode>
+                <titleEN>(C107000)Motor position sensor calibration error</titleEN>
+                <titleRU>(C107000)Ошибка калибровки датчика положения двигателя</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="114">
+                <ecode>507101</ecode>
+                <titleEN>(C107101)Pressure build circuit pressure sensor error</titleEN>
+                <titleRU>(C107101)Ошибка датчика давления в контуре нагнетания давления</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="115">
+                <ecode>507201</ecode>
+                <titleEN>(C107201)Master cylinder pressure sensor error</titleEN>
+                <titleRU>(C107201)Ошибка датчика давления главного цилиндра</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="116">
+                <ecode>507301</ecode>
+                <titleEN>(C107301)Boost Motor position signal error</titleEN>
+                <titleRU>(C107301)Ошибка сигнала положения двигателя Boost</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="117">
+                <ecode>507409</ecode>
+                <titleEN>(C107409)Boost Motor Relay power supply error</titleEN>
+                <titleRU>(C107409)Ошибка питания реле усилителя двигателя</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="118">
+                <ecode>507501</ecode>
+                <titleEN>(C107501)Boost Motor relay general error</titleEN>
+                <titleRU>(C107501)Общая ошибка реле усилителя двигателя</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="119">
+                <ecode>507613</ecode>
+                <titleEN>(C107613)Boost Motor relay open load error</titleEN>
+                <titleRU>(C107613)Ошибка размыкания реле усилителя двигателя</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="120">
+                <ecode>507712</ecode>
+                <titleEN>(C107712)PMSM relay load short circuit fault</titleEN>
+                <titleRU>(C107712)Короткое замыкание нагрузки реле PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="121">
+                <ecode>507804</ecode>
+                <titleEN>(C107804)Chip internal fault(SPI com fault)</titleEN>
+                <titleRU>(C107804)Внутренняя ошибка чипа (ошибка SPI com)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="122">
+                <ecode>507904</ecode>
+                <titleEN>(C107904)Chip internal fault(logic Monitoring Module fault)</titleEN>
+                <titleRU>(C107904)Внутренняя неисправность чипа (неисправность логического модуля мониторинга)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="123">
+                <ecode>507A04</ecode>
+                <titleEN>(C107A04)Chip internal fault(undervoltage or over voltage)</titleEN>
+                <titleRU>(C107A04)Внутренняя неисправность чипа (пониженное или повышенное напряжение)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="124">
+                <ecode>507B04</ecode>
+                <titleEN>(C107B04)Chip internal fault(over temp fault)</titleEN>
+                <titleRU>(C107B04)Внутренняя неисправность чипа (перегрев)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="125">
+                <ecode>507C11</ecode>
+                <titleEN>(C107C11)PMSM phase x GND short error</titleEN>
+                <titleRU>(C107C11)Ошибка короткого замыкания фазы PMSM x GND</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="126">
+                <ecode>507D12</ecode>
+                <titleEN>(C107D12)PMSM phase x Batt short error</titleEN>
+                <titleRU>(C107D12)Ошибка короткого замыкания фазы PMSM x Batt</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="127">
+                <ecode>507E13</ecode>
+                <titleEN>(C107E13)PMSM phase x open load error</titleEN>
+                <titleRU>(C107E13)Ошибка разомкнутой нагрузки фазы PMSM x</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="128">
+                <ecode>507F04</ecode>
+                <titleEN>(C107F04)PMSM phase x bootstrap error</titleEN>
+                <titleRU>(C107F04)Ошибка начальной загрузки фазы x PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="129">
+                <ecode>508019</ecode>
+                <titleEN>(C108019)PMSM phase x over current error</titleEN>
+                <titleRU>(C108019)Ошибка превышения тока фазы x PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="130">
+                <ecode>508113</ecode>
+                <titleEN>(C108113)PMSM phase bridge open load error</titleEN>
+                <titleRU>(C108113)Ошибка обрыва нагрузки фазового моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="131">
+                <ecode>508213</ecode>
+                <titleEN>(C108213)PMSM phase bridge open load error</titleEN>
+                <titleRU>(C108213)Ошибка нагрузки разомкнутого фазового моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="132">
+                <ecode>508313</ecode>
+                <titleEN>(C108313)PMSM phase bridge open load error</titleEN>
+                <titleRU>(C108313)Ошибка нагрузки разомкнутого фазового моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="133">
+                <ecode>508413</ecode>
+                <titleEN>(C108413)PMSM phase bridge open load error</titleEN>
+                <titleRU>(C108413)Ошибка нагрузки разомкнутого фазового моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="134">
+                <ecode>508513</ecode>
+                <titleEN>(C108513)PMSM phase bridge open load error</titleEN>
+                <titleRU>(C108513)Ошибка нагрузки разомкнутого фазового моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="135">
+                <ecode>508613</ecode>
+                <titleEN>(C108613)PMSM phase bridge open load error</titleEN>
+                <titleRU>(C108613)Ошибка нагрузки разомкнутого фазового моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="136">
+                <ecode>508716</ecode>
+                <titleEN>(C108716)PMSM phase bridge under voltage error</titleEN>
+                <titleRU>(C108716)Ошибка по напряжению фазного моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="137">
+                <ecode>508816</ecode>
+                <titleEN>(C108816)PMSM phase bridge under voltage error</titleEN>
+                <titleRU>(C108816)Ошибка по напряжению фазного моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="138">
+                <ecode>508916</ecode>
+                <titleEN>(C108916)PMSM phase bridge under voltage error</titleEN>
+                <titleRU>(C108916)Ошибка по напряжению фазного моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="139">
+                <ecode>508A16</ecode>
+                <titleEN>(C108A16)PMSM phase bridge under voltage error</titleEN>
+                <titleRU>(C108A16)Ошибка по напряжению фазного моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="140">
+                <ecode>508B16</ecode>
+                <titleEN>(C108B16)PMSM phase bridge under voltage error</titleEN>
+                <titleRU>(C108B16)Ошибка по напряжению фазного моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="141">
+                <ecode>508C16</ecode>
+                <titleEN>(C108C16)PMSM phase bridge under voltage error</titleEN>
+                <titleRU>(C108C16)Ошибка по напряжению фазного моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="142">
+                <ecode>508D17</ecode>
+                <titleEN>(C108D17)PMSM phase bridge over voltage error</titleEN>
+                <titleRU>(C108D17)Ошибка перенапряжения фазного моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="143">
+                <ecode>508E17</ecode>
+                <titleEN>(C108E17)PMSM phase bridge over voltage error</titleEN>
+                <titleRU>(C108E17)Ошибка перенапряжения фазного моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="144">
+                <ecode>508F17</ecode>
+                <titleEN>(C108F17)PMSM phase bridge over voltage error</titleEN>
+                <titleRU>(C108F17)Ошибка перенапряжения фазного моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="145">
+                <ecode>509017</ecode>
+                <titleEN>(C109017)PMSM phase bridge over voltage error</titleEN>
+                <titleRU>(C109017)Ошибка перенапряжения фазного моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="146">
+                <ecode>509117</ecode>
+                <titleEN>(C109117)PMSM phase bridge over voltage error</titleEN>
+                <titleRU>(C109117)Ошибка перенапряжения фазного моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="147">
+                <ecode>509217</ecode>
+                <titleEN>(C109217)PMSM phase bridge over voltage error</titleEN>
+                <titleRU>(C109217)Ошибка перенапряжения фазного моста PMSM</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="148">
+                <ecode>509304</ecode>
+                <titleEN>(C109304)Chip internal error(Enable pin error)</titleEN>
+                <titleRU>(C109304)Внутренняя ошибка чипа (ошибка включения вывода)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="149">
+                <ecode>509404</ecode>
+                <titleEN>(C109404)Chip internal error(Diag pin error)</titleEN>
+                <titleRU>(C109404)Внутренняя ошибка чипа (ошибка диагностического контакта)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="150">
+                <ecode>509504</ecode>
+                <titleEN>(C109504)Chip internal error(SXL pin error)</titleEN>
+                <titleRU>(C109504)Внутренняя ошибка чипа (ошибка вывода SXL)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="151">
+                <ecode>509604</ecode>
+                <titleEN>(C109604)Chip internal error(SPI com error)</titleEN>
+                <titleRU>(C109604)Внутренняя ошибка чипа (ошибка SPI com)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="152">
+                <ecode>509704</ecode>
+                <titleEN>(C109704)Chip internal error(voltage regulator error)</titleEN>
+                <titleRU>(C109704)Внутренняя ошибка чипа (ошибка регулятора напряжения)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="153">
+                <ecode>509804</ecode>
+                <titleEN>(C109804)Chip internal error(over temp error)</titleEN>
+                <titleRU>(C109804)Внутренняя ошибка чипа (ошибка перегрева)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="154">
+                <ecode>509904</ecode>
+                <titleEN>(C109904)Chip internal error(enable pin error)</titleEN>
+                <titleRU>(C109904)Внутренняя ошибка чипа (ошибка включения пина)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="155">
+                <ecode>509A16</ecode>
+                <titleEN>(C109A16)Left EPB motor driver under voltage error</titleEN>
+                <titleRU>(C109A16)Ошибка левого электропривода EPB, недостаточное напряжение</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="156">
+                <ecode>509B16</ecode>
+                <titleEN>(C109B16)Right EPB motor driver under voltage error</titleEN>
+                <titleRU>(C109B16)Ошибка пониженного напряжения привода правого двигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="157">
+                <ecode>509C17</ecode>
+                <titleEN>(C109C17)Left EPB motor driver over voltage error</titleEN>
+                <titleRU>(C109C17)Ошибка перенапряжения левого электродвигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="158">
+                <ecode>509D17</ecode>
+                <titleEN>(C109D17)Right EPB motor driver over voltage error</titleEN>
+                <titleRU>(C109D17)Ошибка превышения напряжения на приводе правого двигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="159">
+                <ecode>509E13</ecode>
+                <titleEN>(C109E13)Left EPB motor driver open load error</titleEN>
+                <titleRU>(C109E13)Ошибка нагрузки левого привода электродвигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="160">
+                <ecode>509F13</ecode>
+                <titleEN>(C109F13)Right EPB motor driver open load error</titleEN>
+                <titleRU>(C109F13)Ошибка открытой нагрузки драйвера правого двигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="161">
+                <ecode>50A012</ecode>
+                <titleEN>(C10A012)Left EPB motor driver Batt short error</titleEN>
+                <titleRU>(C10A012)Ошибка короткого замыкания аккумулятора левого электропривода EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="162">
+                <ecode>50A112</ecode>
+                <titleEN>(C10A112)Right EPB motor driver Batt short error</titleEN>
+                <titleRU>(C10A112)Ошибка короткого замыкания аккумуляторной батареи правого привода EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="163">
+                <ecode>50A211</ecode>
+                <titleEN>(C10A211)Left EPB motor dirver GND short error</titleEN>
+                <titleRU>(C10A211)Ошибка замыкания на массу левого электродвигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="164">
+                <ecode>50A311</ecode>
+                <titleEN>(C10A311)Right EPB motor dirver GND short error</titleEN>
+                <titleRU>(C10A311)Ошибка замыкания на массу правого привода электродвигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="165">
+                <ecode>50A400</ecode>
+                <titleEN>(C10A400)Left EPB motor dirver Mosfet error</titleEN>
+                <titleRU>(C10A400)Ошибка левого двигателя EPB Mosfet</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="166">
+                <ecode>50A500</ecode>
+                <titleEN>(C10A500)Right EPB motor dirver Mosfet error</titleEN>
+                <titleRU>(C10A500)Ошибка Mosfet драйвера правого электродвигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="167">
+                <ecode>50A61D</ecode>
+                <titleEN>(C10A61D)Left EPB motor dirver amplifier error</titleEN>
+                <titleRU>(C10A61D)Ошибка усилителя привода левого электропривода EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="168">
+                <ecode>50A71D</ecode>
+                <titleEN>(C10A71D)Right EPB motor dirver amplifier error</titleEN>
+                <titleRU>(C10A71D)Ошибка усилителя привода правого электродвигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="169">
+                <ecode>50A819</ecode>
+                <titleEN>(C10A819)Left EPB motor dirver over current error</titleEN>
+                <titleRU>(C10A819)Ошибка превышения тока в цепи левого электродвигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="170">
+                <ecode>50A919</ecode>
+                <titleEN>(C10A919)Right EPB motor dirver over current error</titleEN>
+                <titleRU>(C10A919)Ошибка превышения тока в приводе правого электродвигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="171">
+                <ecode>50AA04</ecode>
+                <titleEN>(C10AA04)COMCU time out error</titleEN>
+                <titleRU>(C10AA04)Ошибка тайм-аута COMCU</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="172">
+                <ecode>50AB00</ecode>
+                <titleEN>(C10AB00)COMCU check sum error</titleEN>
+                <titleRU>(C10AB00)Ошибка контрольной суммы COMCU</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="173">
+                <ecode>50AC00</ecode>
+                <titleEN>(C10AC00)COMCU transmit error</titleEN>
+                <titleRU>(C10AC00)Ошибка передачи COMCU</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="174">
+                <ecode>50AD00</ecode>
+                <titleEN>(C10AD00)EPB COMCU controller loss control error</titleEN>
+                <titleRU>(C10AD00)Ошибка контроля потери контроллера EPB COMCU</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="175">
+                <ecode>50AE00</ecode>
+                <titleEN>(C10AE00)Brake fluid low level error</titleEN>
+                <titleRU>(C10AE00)Ошибка низкого уровня тормозной жидкости</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="176">
+                <ecode>50AF16</ecode>
+                <titleEN>(C10AF16)ECU ignition counter inconsistent fault</titleEN>
+                <titleRU>(C10AF16)Непоследовательная ошибка счетчика зажигания ЭБУ</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="177">
+                <ecode>50B017</ecode>
+                <titleEN>(C10B017)Left EPB host wrong response fault</titleEN>
+                <titleRU>(C10B017)Ошибка неправильного ответа левого хоста EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="178">
+                <ecode>50B100</ecode>
+                <titleEN>(C10B100)Right EPB host wrong response fault</titleEN>
+                <titleRU>(C10B100)Ошибка неправильного ответа правого хоста EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="179">
+                <ecode>50B200</ecode>
+                <titleEN>(C10B200)Left EPB no brake disc detected</titleEN>
+                <titleRU>(C10B200)Левый EPB, тормозной диск не обнаружен</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="180">
+                <ecode>50B300</ecode>
+                <titleEN>(C10B300)Right EPB no brake disc detected</titleEN>
+                <titleRU>(C10B300)Правый EPB не обнаружен тормозной диск</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="181">
+                <ecode>50B400</ecode>
+                <titleEN>(C10B400)Left EPB motor stuck</titleEN>
+                <titleRU>(C10B400)Левый электродвигатель EPB застрял</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="182">
+                <ecode>50B500</ecode>
+                <titleEN>(C10B500)Right EPB motor stuck</titleEN>
+                <titleRU>(C10B500)Правый электродвигатель EPB застрял</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="183">
+                <ecode>50B600</ecode>
+                <titleEN>(C10B600)Left EPB force not achieve</titleEN>
+                <titleRU>(C10B600)Левая сила EPB не достигается</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="184">
+                <ecode>50B700</ecode>
+                <titleEN>(C10B700)Right EPB force not achieve</titleEN>
+                <titleRU>(C10B700)Правая сила EPB не достигается</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="185">
+                <ecode>50B800</ecode>
+                <titleEN>(C10B800)Left EPB high mechanical resistance </titleEN>
+                <titleRU>(C10B800)Левый EPB с высокой механической прочностью</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="186">
+                <ecode>50B900</ecode>
+                <titleEN>(C10B900)Right EPB high mechanical resistance </titleEN>
+                <titleRU>(C10B900)Правый EPB с высокой механической прочностью</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="187">
+                <ecode>50BA00</ecode>
+                <titleEN>(C10BA00)Left EPB high idle current</titleEN>
+                <titleRU>(C10BA00)Высокий ток холостого хода левого EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="188">
+                <ecode>50BB00</ecode>
+                <titleEN>(C10BB00)Right EPB high idle current</titleEN>
+                <titleRU>(C10BB00)Высокий ток холостого хода правого EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="189">
+                <ecode>50BC00</ecode>
+                <titleEN>(C10BC00)Left EPB actuator broken</titleEN>
+                <titleRU>(C10BC00)Левый привод EPB сломан.</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="190">
+                <ecode>50BD00</ecode>
+                <titleEN>(C10BD00)Right EPB actuator broken</titleEN>
+                <titleRU>(C10BD00)Правый привод EPB сломан</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="191">
+                <ecode>50BE00</ecode>
+                <titleEN>(C10BE00)EPB brake caliper unknow</titleEN>
+                <titleRU>(C10BE00)суппорт тормоза EPB неизвестный</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="192">
+                <ecode>50BF00</ecode>
+                <titleEN>(C10BF00)EPB power limit during actuation</titleEN>
+                <titleRU>(C10BF00)Ограничение мощности EPB во время срабатывания</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="193">
+                <ecode>50C000</ecode>
+                <titleEN>(C10C000)Maintenance mode</titleEN>
+                <titleRU>(C10C000)Режим обслуживания</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="194">
+                <ecode>50C100</ecode>
+                <titleEN>(C10C100)Left EPB high current deviation</titleEN>
+                <titleRU>(C10C100)Отклонение тока левого EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="195">
+                <ecode>50C200</ecode>
+                <titleEN>(C10C200)Right EPB high current deviation</titleEN>
+                <titleRU>(C10C200)Правое отклонение тока EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="196">
+                <ecode>50C300</ecode>
+                <titleEN>(C10C300)EPB motor power supply low voltage</titleEN>
+                <titleRU>(C10C300)Низкое напряжение питания двигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="197">
+                <ecode>50C400</ecode>
+                <titleEN>(C10C400)EPB motor power supply high voltage</titleEN>
+                <titleRU>(C10C400)Высоковольтный источник питания двигателя EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="198">
+                <ecode>50C517</ecode>
+                <titleEN>(C10C517)EPB wheel speed fault</titleEN>
+                <titleRU>(C10C517)Ошибка скорости колеса EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="199">
+                <ecode>50C616</ecode>
+                <titleEN>(C10C616)BBoost motor under voltage</titleEN>
+                <titleRU>(C10C616)BBoost двигатель под напряжением</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="200">
+                <ecode>50C700</ecode>
+                <titleEN>(C10C700)Boost motor over voltage</titleEN>
+                <titleRU>(C10C700)Повышенное напряжение двигателя</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="201">
+                <ecode>50C800</ecode>
+                <titleEN>(C10C800)Boost motor stuck</titleEN>
+                <titleRU>(C10C800)Застрял двигатель наддува</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="202">
+                <ecode>50C900</ecode>
+                <titleEN>(C10C900)Boost motor self testing</titleEN>
+                <titleRU>(C10C900)Самотестирование двигателя Boost</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="203">
+                <ecode>50CA00</ecode>
+                <titleEN>(C10CA00)Boost motor self test time out</titleEN>
+                <titleRU>(C10CA00)Истекло время самотестирования двигателя наддува</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="204">
+                <ecode>50CB00</ecode>
+                <titleEN>(C10CB00)wheel speed sensor diff fault general</titleEN>
+                <titleRU>(C10CB00)датчик скорости колеса ошибка дифференциала общая</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="205">
+                <ecode>50CC00</ecode>
+                <titleEN>(C10CC00)more than one Wheel speed sensor suspected</titleEN>
+                <titleRU>(C10CC00)Подозревается более одного датчика скорости колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="206">
+                <ecode>50CD00</ecode>
+                <titleEN>(C10CD00)Front left wheel speed sensor signal value out of range fault</titleEN>
+                <titleRU>(C10CD00)Ошибка: значение сигнала датчика скорости переднего левого колеса выходит за пределы допустимого диапазона</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="207">
+                <ecode>50CE00</ecode>
+                <titleEN>(C10CE00)Front left wheel speed sensor signal lost fault</titleEN>
+                <titleRU>(C10CE00)Потерян сигнал датчика скорости переднего левого колеса, неисправность</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="208">
+                <ecode>50CF00</ecode>
+                <titleEN>(C10CF00)Monitoring of wheel speed differences. Faulty wheel FL</titleEN>
+                <titleRU>(C10CF00)Мониторинг разницы скоростей колес. Неисправное колесо FL</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="209">
+                <ecode>50D000</ecode>
+                <titleEN>(C10D000)Front left wheel speed sensor signal noise fault</titleEN>
+                <titleRU>(C10D000)Ошибка сигнала датчика скорости переднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="210">
+                <ecode>50D100</ecode>
+                <titleEN>(C10D100)Front right wheel speed sensor signal value out of range fault</titleEN>
+                <titleRU>(C10D100)Ошибка: значение сигнала датчика скорости переднего правого колеса выходит за пределы допустимого диапазона</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="211">
+                <ecode>50D200</ecode>
+                <titleEN>(C10D200)Front right wheel speed sensor signal lost</titleEN>
+                <titleRU>(C10D200)Потерян сигнал датчика скорости переднего правого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="212">
+                <ecode>50D300</ecode>
+                <titleEN>(C10D300)Monitoring of wheel speed differences. Faulty wheel FR</titleEN>
+                <titleRU>(C10D300)Мониторинг разницы скоростей колес. Неисправное колесо FR</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="213">
+                <ecode>50D400</ecode>
+                <titleEN>(C10D400)Right front wheel speed signal noise failure</titleEN>
+                <titleRU>(C10D400)Ошибка сигнала скорости правого переднего колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="214">
+                <ecode>50D500</ecode>
+                <titleEN>(C10D500)Rear left wheel speed sensor signal value out of range fault</titleEN>
+                <titleRU>(C10D500)Ошибка: значение сигнала датчика скорости заднего левого колеса выходит за пределы допустимого диапазона</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="215">
+                <ecode>50D600</ecode>
+                <titleEN>(C10D600)Rear left Wheel speed signal lost</titleEN>
+                <titleRU>(C10D600)Потерян сигнал скорости заднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="216">
+                <ecode>50D700</ecode>
+                <titleEN>(C10D700)Monitoring of wheel speed differences. Faulty wheel RL</titleEN>
+                <titleRU>(C10D700)Мониторинг разницы скоростей колес. Неисправное колесо RL</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="217">
+                <ecode>50D800</ecode>
+                <titleEN>(C10D800)Rear left wheel speed signal interferences or disturbances</titleEN>
+                <titleRU>(C10D800)Помехи или помехи в сигнале скорости заднего левого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="218">
+                <ecode>50D900</ecode>
+                <titleEN>(C10D900)Rear right wheel speed sensor signal value out of range fault</titleEN>
+                <titleRU>(C10D900)Значение сигнала датчика скорости заднего правого колеса выходит за пределы допустимого диапазона</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="219">
+                <ecode>50DA00</ecode>
+                <titleEN>(C10DA00)Rear right Wheel speed signal lost</titleEN>
+                <titleRU>(C10DA00)Потерян сигнал скорости заднего правого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="220">
+                <ecode>50DB00</ecode>
+                <titleEN>(C10DB00)Monitoring of wheel speed differences. Faulty wheel RR</titleEN>
+                <titleRU>(C10DB00)Мониторинг разницы скоростей колес. Неисправное колесо RR</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="221">
+                <ecode>50DC00</ecode>
+                <titleEN>(C10DC00)Rear Right wheel speed signal interferences or distur+D222+D2+D223:D224</titleEN>
+                <titleRU>(C10DC00)Помехи или помехи сигнала скорости заднего правого колеса+D222+D2+D223:D224</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="222">
+                <ecode>50DD00</ecode>
+                <titleEN>(C10DD00)under brake standstill</titleEN>
+                <titleRU>(C10DD00)стоянка под тормозом</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="223">
+                <ecode>50DE00</ecode>
+                <titleEN>(C10DE00)under brake dynamic</titleEN>
+                <titleRU>(C10DE00)динамика при торможении</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="224">
+                <ecode>50DF00</ecode>
+                <titleEN>(C10DF00)Replenish time out due to leakage</titleEN>
+                <titleRU>(C10DF00)Пополнить тайм-аут из-за утечки</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="225">
+                <ecode>50E000</ecode>
+                <titleEN>(C10E000)Pedal travel sensor consist fault</titleEN>
+                <titleRU>(C10E000)Неисправность датчика хода педали</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="226">
+                <ecode>50E100</ecode>
+                <titleEN>(C10E100)Continuous ABS control for implausible long time</titleEN>
+                <titleRU>(C10E100)Непрерывный контроль ABS в течение невероятно длительного времени</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="227">
+                <ecode>50E200</ecode>
+                <titleEN>(C10E200)Too long initalization of reference speed calculation in TCS</titleEN>
+                <titleRU>(C10E200)Слишком долгая инициализация расчета опорной скорости в TCS</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="228">
+                <ecode>50E300</ecode>
+                <titleEN>(C10E300)Lateral acceleration sensor failure due to lateral acceleration offset or mounting position out of limit</titleEN>
+                <titleRU>(C10E300)Неисправность датчика бокового ускорения из-за смещения бокового ускорения или несоответствия положения монтажа допустимым нормам</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="229">
+                <ecode>50E400</ecode>
+                <titleEN>(C10E400)Brake system hydraulic circuit 1 soft</titleEN>
+                <titleRU>(C10E400)Тормозная система гидравлическая контур 1 мягкий</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="230">
+                <ecode>50E500</ecode>
+                <titleEN>(C10E500)Yaw rate signal not plausible</titleEN>
+                <titleRU>(C10E500)Сигнал скорости рыскания не является достоверным</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="231">
+                <ecode>50E600</ecode>
+                <titleEN>(C10E600)Yaw Rate sensor signal message counter error</titleEN>
+                <titleRU>(C10E600)Ошибка счетчика сообщений сигнала датчика скорости рыскания</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="232">
+                <ecode>50E700</ecode>
+                <titleEN>(C10E700)AXS failure due to constant signal</titleEN>
+                <titleRU>(C10E700)Сбой AXS из-за постоянного сигнала</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="233">
+                <ecode>50E800</ecode>
+                <titleEN>(C10E800)Longitudinal acceleration failure due to offset/mounting position out of limit</titleEN>
+                <titleRU>(C10E800)Сбой продольного ускорения из-за смещения/неправильного положения крепления</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="234">
+                <ecode>50E900</ecode>
+                <titleEN>(C10E900)AXS failure due to wrong assembly position of the sensor or sticking sensor element or sensitivity faults.</titleEN>
+                <titleRU>(C10E900)Отказ AXS из-за неправильного положения сборки датчика, залипания сенсорного элемента или неисправности чувствительности.</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="235">
+                <ecode>50EA00</ecode>
+                <titleEN>(C10EA00)Steering  angle sensor signal message counter error</titleEN>
+                <titleRU>(C10EA00)Ошибка счетчика сообщений сигнала датчика угла поворота рулевого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="236">
+                <ecode>50EB00</ecode>
+                <titleEN>(C10EB00)SAS failure when center is not yet found and vehicle speed or time exceeded</titleEN>
+                <titleRU>(C10EB00)Сбой SAS, когда центр еще не найден, а скорость или время транспортного средства превышены</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="237">
+                <ecode>50EC00</ecode>
+                <titleEN>(C10EC00)Steering angle sensor signal not plausible vs. Yaw rate sensor signal</titleEN>
+                <titleRU>(C10EC00)Сигнал датчика угла поворота рулевого колеса не соответствует сигналу датчика угловой скорости рыскания</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="238">
+                <ecode>50ED00</ecode>
+                <titleEN>(C10ED00)Steering angle sensor signal offset fault</titleEN>
+                <titleRU>(C10ED00)Ошибка смещения сигнала датчика угла поворота рулевого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="239">
+                <ecode>50EE00</ecode>
+                <titleEN>(C10EE00)Brake system hydraulic circuit 2 soft</titleEN>
+                <titleRU>(C10EE00)Тормозная система гидравлический контур 2 мягкий</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="240">
+                <ecode>50EF00</ecode>
+                <titleEN>(C10EF00)SAS failure due to constant steering angle signal</titleEN>
+                <titleRU>(C10EF00)Сбой SAS из-за постоянного сигнала угла поворота рулевого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="241">
+                <ecode>50F000</ecode>
+                <titleEN>(C10F000)Brake system hydraulic single circuit soft</titleEN>
+                <titleRU>(C10F000)Тормозная система гидравлическая одноконтурная мягкая</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="242">
+                <ecode>50F100</ecode>
+                <titleEN>(C10F100)Roller bench mode</titleEN>
+                <titleRU>(C10F100)Режим роликового стенда</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="243">
+                <ecode>50F200</ecode>
+                <titleEN>(C10F200)Roller bench mode misuse</titleEN>
+                <titleRU>(C10F200)Неправильное использование режима роликового стенда</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="244">
+                <ecode>50F300</ecode>
+                <titleEN>(C10F300)device mode</titleEN>
+                <titleRU>(C10F300)режим устройства</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="245">
+                <ecode>50F400</ecode>
+                <titleEN>(C10F400)OTA mode</titleEN>
+                <titleRU>(C10F400)Режим OTA</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="246">
+                <ecode>50F500</ecode>
+                <titleEN>(C10F500)Pedal travel sensor 1 offset fault</titleEN>
+                <titleRU>(C10F500)Ошибка смещения датчика 1 хода педали</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="247">
+                <ecode>50F600</ecode>
+                <titleEN>(C10F600)Pedal travel sensor 2 offset fault</titleEN>
+                <titleRU>(C10F600)Ошибка смещения датчика хода педали 2</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="248">
+                <ecode>50F700</ecode>
+                <titleEN>(C10F700)Pedal travel sensor not zero fault</titleEN>
+                <titleRU>(C10F700)Датчик хода педали не обнуляет ошибку</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="249">
+                <ecode>50F800</ecode>
+                <titleEN>(C10F800)Master cylinder pressure sensor signal offset fault</titleEN>
+                <titleRU>(C10F800)Ошибка смещения сигнала датчика давления главного цилиндра</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="250">
+                <ecode>50F900</ecode>
+                <titleEN>(C10F900)Plunger pressure sensor signal offset fault</titleEN>
+                <titleRU>(C10F900)Ошибка смещения сигнала датчика давления плунжера</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="251">
+                <ecode>50FA00</ecode>
+                <titleEN>(C10FA00)wheel speed sensor generic mult fault</titleEN>
+                <titleRU>(C10FA00)датчик скорости колеса общая неисправность</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="252">
+                <ecode>50FB00</ecode>
+                <titleEN>(C10FB00)ABS emergency brake </titleEN>
+                <titleRU>(C10FB00)ABS аварийный тормоз</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="253">
+                <ecode>50FC00</ecode>
+                <titleEN>(C10FC00)VDC work too long</titleEN>
+                <titleRU>(C10FC00)VDC работает слишком долго</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="254">
+                <ecode>50FD00</ecode>
+                <titleEN>(C10FD00)VDC not init intime</titleEN>
+                <titleRU>(C10FD00)VDC не инициализируется intime</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="255">
+                <ecode>50FE00</ecode>
+                <titleEN>(C10FE00)Brake system hydraulic circuit detect air</titleEN>
+                <titleRU>(C10FE00)Гидравлический контур тормозной системы обнаруживает воздух</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="256">
+                <ecode>50FF00</ecode>
+                <titleEN>(C10FF00)Brake system hydraulic circuit detect air in plunger</titleEN>
+                <titleRU>(C10FF00)Гидравлический контур тормозной системы обнаруживает воздух в плунжере</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="257">
+                <ecode>600000</ecode>
+                <titleEN>(C200000)Brake system hard pedal fault</titleEN>
+                <titleRU>(C200000)Неисправность жесткой педали тормозной системы</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="258">
+                <ecode>600100</ecode>
+                <titleEN>(C200100)Brake system soft pedal fault</titleEN>
+                <titleRU>(C200100)Неисправность мягкой педали тормозной системы</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="259">
+                <ecode>600200</ecode>
+                <titleEN>(C200200)Boost motor backward bound not found</titleEN>
+                <titleRU>(C200200)Усилитель двигателя, обратный путь которого не найден</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="260">
+                <ecode>600300</ecode>
+                <titleEN>(C200300)Brake system hydraulic leakage circuit</titleEN>
+                <titleRU>(C200300)Цепь утечки гидравлической системы тормозной системы</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="261">
+                <ecode>600400</ecode>
+                <titleEN>(C200400)Brake system plunger lost pressure boost</titleEN>
+                <titleRU>(C200400)Плунжер тормозной системы потерял давление наддува</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="262">
+                <ecode>600500</ecode>
+                <titleEN>(C200500)Brake system plunger reduce pressure build up</titleEN>
+                <titleRU>(C200500)Плунжер тормозной системы уменьшает нарастание давления</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="263">
+                <ecode>600600</ecode>
+                <titleEN>(C200600)Brake system hydraulic hard circuit</titleEN>
+                <titleRU>(C200600)Тормозная система гидравлическая жесткая цепь</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="264">
+                <ecode>600700</ecode>
+                <titleEN>(C200700)Brake system hydraulic circuit soft</titleEN>
+                <titleRU>(C200700)Гидравлический контур тормозной системы мягкий</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="265">
+                <ecode>600800</ecode>
+                <titleEN>(C200800)Lateral acceleration signal value out of range</titleEN>
+                <titleRU>(C200800)Значение сигнала бокового ускорения вне диапазона</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="266">
+                <ecode>600900</ecode>
+                <titleEN>(C200900)Longitudinal acceleration signal value  out of range</titleEN>
+                <titleRU>(C200900)Значение сигнала продольного ускорения вне диапазона</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="267">
+                <ecode>600A00</ecode>
+                <titleEN>(C200A00)EOL test mode</titleEN>
+                <titleRU>(C200A00)Режим тестирования EOL</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="268">
+                <ecode>600B00</ecode>
+                <titleEN>(C200B00)Wheel speed sensor swapped front axle</titleEN>
+                <titleRU>(C200B00)Датчик скорости колеса поменял переднюю ось</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="269">
+                <ecode>600C00</ecode>
+                <titleEN>(C200C00)Wheel speed sensor swapped rear axle</titleEN>
+                <titleRU>(C200C00)Датчик скорости колеса поменял местами заднюю ось</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="270">
+                <ecode>600D00</ecode>
+                <titleEN>(C200D00)Ays plausibility fault</titleEN>
+                <titleRU>(C200D00)Да, ошибка правдоподобия</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="271">
+                <ecode>600E00</ecode>
+                <titleEN>(C200E00)Yaw rate sensor wrong sign</titleEN>
+                <titleRU>(C200E00)Неправильный знак датчика угловой скорости</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="272">
+                <ecode>600F00</ecode>
+                <titleEN>(C200F00)Steering angle sensor  wrong sign</titleEN>
+                <titleRU>(C200F00)Неправильный сигнал датчика угла поворота рулевого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="273">
+                <ecode>601000</ecode>
+                <titleEN>(C201000)TPMS system uninitialized error </titleEN>
+                <titleRU>(C201000)Ошибка неинициализации системы TPMS</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="274">
+                <ecode>601100</ecode>
+                <titleEN>(C201100)TPMS Dflash read error</titleEN>
+                <titleRU>(C201100)Ошибка чтения TPMS Dflash</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="275">
+                <ecode>601200</ecode>
+                <titleEN>(C201200)TPMS Dflash write error</titleEN>
+                <titleRU>(C201200)Ошибка записи TPMS Dflash</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="276">
+                <ecode>601300</ecode>
+                <titleEN>(C201300)TPMS reset switch error</titleEN>
+                <titleRU>(C201300)Ошибка переключателя сброса TPMS</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="277">
+                <ecode>601400</ecode>
+                <titleEN>(C201400)TPMS tire mismatch error</titleEN>
+                <titleRU>(C201400)Ошибка несоответствия шин TPMS</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="278">
+                <ecode>601500</ecode>
+                <titleEN>(C201500)TPMS signal error</titleEN>
+                <titleRU>(C201500)Ошибка сигнала TPMS</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="279">
+                <ecode>601600</ecode>
+                <titleEN>(C201600)Brake disc temprature is overheat during braking</titleEN>
+                <titleRU>(C201600)Температура тормозного диска перегревается во время торможения</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="280">
+                <ecode>601700</ecode>
+                <titleEN>(C201700)Brake disc temperature monitoring deactived</titleEN>
+                <titleRU>(C201700)Отключен контроль температуры тормозного диска</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="281">
+                <ecode>601800</ecode>
+                <titleEN>(C201800)ACC request inconsistent</titleEN>
+                <titleRU>(C201800)Запрос ACC несовместим</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="282">
+                <ecode>601900</ecode>
+                <titleEN>(C201900)deceleration rate of ACC is  out of range</titleEN>
+                <titleRU>(C201900)Скорость замедления ACC выходит за пределы диапазона</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="283">
+                <ecode>601A00</ecode>
+                <titleEN>(C201A00)AEB Request inconsistent</titleEN>
+                <titleRU>(C201A00)Запрос AEB несовместим</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="284">
+                <ecode>601B00</ecode>
+                <titleEN>(C201B00)AEB Multiple request error</titleEN>
+                <titleRU>(C201B00)Ошибка множественного запроса AEB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="285">
+                <ecode>601C00</ecode>
+                <titleEN>(C201C00)Velocity drop during AEB working is over maxium</titleEN>
+                <titleRU>(C201C00)Падение скорости при работе AEB превышает максимальное значение</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="286">
+                <ecode>601D00</ecode>
+                <titleEN>(C201D00)Rescue mode</titleEN>
+                <titleRU>(C201D00)Режим спасения</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="287">
+                <ecode>601E00</ecode>
+                <titleEN>(C201E00)Boost motor over temp warnning</titleEN>
+                <titleRU>(C201E00)Предупреждение о перегреве двигателя Boost</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="288">
+                <ecode>601F00</ecode>
+                <titleEN>(C201F00)Boost motor over temp fault</titleEN>
+                <titleRU>(C201F00)Ошибка перегрева двигателя наддува</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="289">
+                <ecode>110116</ecode>
+                <titleEN>(B10811600)ECU power supply voltage extremely low</titleEN>
+                <titleRU>(B10811600)Напряжение питания ЭБУ крайне низкое</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="290">
+                <ecode>110017</ecode>
+                <titleEN>(B10801700)ECU power supply voltage extremely high</titleEN>
+                <titleRU>(B10801700)Напряжение питания ЭБУ чрезвычайно высокое</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="291">
+                <ecode>C07488</ecode>
+                <titleEN>(U007488)Chassis CAN Controller BusOff</titleEN>
+                <titleRU>(U007488)Контроллер CAN шасси BusOff</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="292">
+                <ecode>C07388</ecode>
+                <titleEN>(U007388)PowerTrain CAN Controller BusOff</titleEN>
+                <titleRU>(U007388)Контроллер CAN PowerTrain BusOff</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="293">
+                <ecode>602008</ecode>
+                <titleEN>(C202008)Lateral acceleration signal error</titleEN>
+                <titleRU>(C202008)Ошибка сигнала бокового ускорения</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="294">
+                <ecode>602108</ecode>
+                <titleEN>(C202108)Longitudunal acceleration signal error</titleEN>
+                <titleRU>(C202108)Ошибка сигнала продольного ускорения</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="295">
+                <ecode>602208</ecode>
+                <titleEN>(C202208)Yaw signal error</titleEN>
+                <titleRU>(C202208)Ошибка сигнала рыскания</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="296">
+                <ecode>602308</ecode>
+                <titleEN>(C202308)Yaw rate sensor calibration error</titleEN>
+                <titleRU>(C202308)Ошибка калибровки датчика угловой скорости</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="297">
+                <ecode>602408</ecode>
+                <titleEN>(C202408)Steering Wheel corner singnal error</titleEN>
+                <titleRU>(C202408)Ошибка сигнала поворота рулевого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="298">
+                <ecode>602508</ecode>
+                <titleEN>(C202508)Steering Wheel angle sensor error</titleEN>
+                <titleRU>(C202508)Ошибка датчика угла поворота рулевого колеса</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="299">
+                <ecode>602608</ecode>
+                <titleEN>(C202608)Steering Wheel angle sensor not calibration</titleEN>
+                <titleRU>(C202608)Датчик угла поворота рулевого колеса не откалиброван</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="300">
+                <ecode>602708</ecode>
+                <titleEN>(C202708)Drive signal error</titleEN>
+                <titleRU>(C202708)Ошибка сигнала привода</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="301">
+                <ecode>602808</ecode>
+                <titleEN>(C202808)Drive demand signal error</titleEN>
+                <titleRU>(C202808)Ошибка сигнала запроса привода</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="302">
+                <ecode>602908</ecode>
+                <titleEN>(C202908)Drive speed signal error</titleEN>
+                <titleRU>(C202908)Ошибка сигнала скорости привода</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="303">
+                <ecode>602A08</ecode>
+                <titleEN>(C202A08)Acclelerator pedal signal error</titleEN>
+                <titleRU>(C202A08)Ошибка сигнала педали акселератора</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="304">
+                <ecode>602B08</ecode>
+                <titleEN>(C202B08)Gear siganl error</titleEN>
+                <titleRU>(C202B08)Ошибка сигнала шестерни</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="305">
+                <ecode>602D08</ecode>
+                <titleEN>(C202D08)Shift process siganl error</titleEN>
+                <titleRU>(C202D08)Ошибка сигнала процесса сдвига</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="306">
+                <ecode>602E08</ecode>
+                <titleEN>(C202E08)Seat belt signal error</titleEN>
+                <titleRU>(C202E08)Ошибка сигнала ремня безопасности</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="307">
+                <ecode>602F08</ecode>
+                <titleEN>(C202F08)Driver's side door signal error</titleEN>
+                <titleRU>(C202F08)Ошибка сигнала двери водителя</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="308">
+                <ecode>603108</ecode>
+                <titleEN>(C203108)Energy recovery signal error</titleEN>
+                <titleRU>(C203108)Ошибка сигнала рекуперации энергии</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="309">
+                <ecode>603208</ecode>
+                <titleEN>(C203208)EPB parking related signal error</titleEN>
+                <titleRU>(C203208)Ошибка сигнала парковки EPB</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="310">
+                <ecode>603308</ecode>
+                <titleEN>(C203308)Driving-related signal error</titleEN>
+                <titleRU>(C203308)Ошибка сигнала, связанная с вождением</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="311">
+                <ecode>C13187</ecode>
+                <titleEN>(U013187)Communication failure with EPS</titleEN>
+                <titleRU>(U013187)Сбой связи с EPS</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="312">
+                <ecode>D11B87</ecode>
+                <titleEN>(U111B87)Communication failure with ACU</titleEN>
+                <titleRU>(U111B87)Сбой связи с ACU</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="313">
+                <ecode>D10587</ecode>
+                <titleEN>(U110587)Communication failure with ADCU</titleEN>
+                <titleRU>(U110587)Сбой связи с ADCU</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="314">
+                <ecode>C19987</ecode>
+                <titleEN>(U019987)Communication failure with DCM_FL</titleEN>
+                <titleRU>(U019987)Ошибка связи с DCM_FL</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="315">
+                <ecode>C20087</ecode>
+                <titleEN>(U020087)Communication failure with DCM_FR</titleEN>
+                <titleRU>(U020087)Ошибка связи с DCM_FR</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="316">
+                <ecode>D10087</ecode>
+                <titleEN>(U110087)Communication failure with VCU</titleEN>
+                <titleRU>(U110087)Сбой связи с VCU</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="317">
+                <ecode>C11087</ecode>
+                <titleEN>(U011087)Communication failure with MCU</titleEN>
+                <titleRU>(U011087)Сбой связи с MCU</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="318">
+                <ecode>908255</ecode>
+                <titleEN>(B108255)Not coded (CDS)</titleEN>
+                <titleRU>(B108255)Не кодируется (CDS)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="319">
+                <ecode>908356</ecode>
+                <titleEN>(B108356)Invalid coding (CDS)</titleEN>
+                <titleRU>(B108356)Неверное кодирование (CDS)</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+</DTCpool>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DTCpool xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns_xsd="http://www.w3.org/2001/XMLSchema">
+        <DTC Number="1">
+                <ecode>908017</ecode>
+                <titleEN>(B108017)Battery Voltage High</titleEN>
+                <titleRU>(B108017)Высокое напряжение батареи</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="2">
+                <ecode>908116</ecode>
+                <titleEN>(B108116)Battery Voltage Low</titleEN>
+                <titleRU>(B108116)Низкое напряжение батареи</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="3">
+                <ecode>C19987</ecode>
+                <titleEN>(U019987)Lost Communication With "Door Control Module A"</titleEN>
+                <titleRU>(U019987)Потеряна связь с «Модулем управления дверью А»</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="4">
+                <ecode>C14687</ecode>
+                <titleEN>(U014687)Lost Communication With Gateway "A"</titleEN>
+                <titleRU>(U014687)Потеряна связь со шлюзом «А»</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="5">
+                <ecode>D28088</ecode>
+                <titleEN>(U128088)BodyCAN BusOff</titleEN>
+                <titleRU>(U128088)BodyCAN BusВыкл.</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="6">
+                <ecode>A40000</ecode>
+                <titleEN>(B2400)Coil Vin Is Too High</titleEN>
+                <titleRU>(B2400)Напряжение катушки слишком высокое</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="7">
+                <ecode>A40100</ecode>
+                <titleEN>(B2401)Coil Vin Is Too Low</titleEN>
+                <titleRU>(B2401)Напряжение катушки слишком низкое</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="8">
+                <ecode>A40200</ecode>
+                <titleEN>(B2402)Buckboost Output Is Too High</titleEN>
+                <titleRU>(B2402)Слишком высокий выходной сигнал Buckboost</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="9">
+                <ecode>A40300</ecode>
+                <titleEN>(B2403)Buckboost Output Is Too Low</titleEN>
+                <titleRU>(B2403)Выходной сигнал Buckboost слишком низок</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="10">
+                <ecode>A40400</ecode>
+                <titleEN>(B2404)Isns Is Too High</titleEN>
+                <titleRU>(B2404)Isns слишком высок</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+        <DTC Number="11">
+                <ecode>A40500</ecode>
+                <titleEN>(B2405)Tx Input Power Is Too High</titleEN>
+                <titleRU>(B2405)Входная мощность Tx слишком высока</titleRU>
+                <spn>
+            </spn>
+                <fmi>
+            </fmi>
+                <IgnoreDTCStations></IgnoreDTCStations>
+        </DTC>
+</DTCpool>
