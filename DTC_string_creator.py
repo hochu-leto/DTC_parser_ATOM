@@ -14,6 +14,25 @@ end_xml = '</DTCpool>'
 
 number = 1
 
+ATOM_ECU_code_list = ['A_BD_ADAS_A1F_UDS_1_11 ', 'A_BD_BCM_A1F_UDS_1_11 ', 'A_BD_BPM_A1F_UDS_1_11 ',
+                      'A_BD_CGW_A1F_UDS_1_11 ', 'A_BD_DCMFL_A1F_UDS_1_11 ', 'A_BD_DCMFR_A1F_UDS_1_11 ',
+                      'A_BD_DCMRL_A1F_UDS_1_11 ', 'A_BD_DCMRR_A1F_UDS_1_11 ', 'A_BD_HLL_A1F_UDS_1_11 ',
+                      'A_BD_HLR_A1F_UDS_1_11 ', 'A_BD_PAT_A1F_UDS_1_11 ', 'A_BD_SCUL_A1F_UDS_1_11 ',
+                      'A_BD_SCUR_A1F_UDS_1_11 ', 'A_BD_WCBS1_A1F_UDS_1_11 ', 'A_BD_WCBS2_A1F_UDS_1_11 ',
+                      'A_CS_ACU_A1F_UDS_1_11 ', 'A_CS_AVAS_A1F_UDS_1_11 ', 'A_CS_CCU1_A1F_UDS_1_11',
+                      'A_CS_CCU2_A1F_UDS_1_11', 'A_CS_EPS_A1F_UDS_1_11 ', 'A_CS_FWA1_A1F_UDS_1_11',
+                      'A_CS_FWA2_A1F_UDS_1_11', 'A_CS_HWA_A1F_UDS_1_11', 'A_CS_IBS_A1F_UDS_1_11 ',
+                      'A_DZ_BLELH_A1F_UDS_1_11 ', 'A_DZ_BLERH_A1F_UDS_1_11 ', 'A_DZ_BLERR_A1F_UDS_1_11 ',
+                      'A_DZ_CBM_A1F_UDS_1_11 ', 'A_DZ_ERA_A1F_UDS_1_11 ', 'A_DZ_NFC_A1F_UDS_1_11 ',
+                      'A_DZ_SGW_A1F_UDS_1_11 ', 'A_ET_DIM_A1F_UDS_1_11 ', 'A_ET_HOD_A1F_UDS_1_11 ',
+                      'A_ET_HUD_A1F_UDS_1_11 ', 'A_ET_IVI_A1F_UDS_1_11 ', 'A_ET_MFPFC_A1F_UDS_1_11 ',
+                      'A_ET_MFPFL_A1F_UDS_1_11 ', 'A_ET_MFPFR_A1F_UDS_1_11 ', 'A_ET_MFPRC_A1F_UDS_1_11 ',
+                      'A_ET_MFPRL_A1F_UDS_1_11 ', 'A_ET_MFPRR_A1F_UDS_1_11 ', 'A_ET_NDT_A1F_UDS_1_11 ',
+                      'A_ET_SWITCH1_A1F_UDS_1_11 ', 'A_ET_SWITCH2_A1F_UDS_1_11 ', 'A_ET_SWP_A1F_UDS_1_11 ',
+                      'A_PW_BMS_A1F_UDS_1_11 ', 'A_PW_EVCOM_A1F_UDS_1_11 ', 'A_PW_HVAC_A1F_UDS_1_11 ',
+                      'A_PW_MCU_A1F_UDS_1_11 ', 'A_PW_POD_A1F_UDS_1_11 ', 'A_PW_PRND_A1F_UDS_1_11 ',
+                      'A_PW_TCU_A1F_UDS_1_11 ', 'A_PW_VCU_A1F_UDS_1_11 ']
+
 
 class DTC(object):
     def __init__(self):
@@ -82,10 +101,6 @@ class DTC(object):
     def repair_desc_ru(self, value):
         self._repair_desc_ru = value
 
-    #             <hex_code>{dtc_3_byte_to_hex(self._code)}</hex_code>
-    # < titleCH > ({self._code})
-    # {self._name_CH} < / titleCH >
-
     @property
     def xml(self):
         self._xml = f'''
@@ -93,10 +108,10 @@ class DTC(object):
                 <titleEN>({self._code}){self._name_EN}</titleEN>
                 <titleRU>({self._code}){self._name_RU}</titleRU>
                 <spn></spn>
-                <fmi></fmi>
+                <fmi></fmi>                
+                <IgnoreDTCStations></IgnoreDTCStations>
                 <RepairActionEN>{self._repair_desc_en}</RepairActionEN>
                 <RepairActionRU>{self._repair_desc_ru}</RepairActionRU>
-                <IgnoreDTCStations></IgnoreDTCStations>
         '''
         return self._xml
 
@@ -110,20 +125,33 @@ def xml_file_writer(file_name: str, line_list) -> None:
     try:
         with open(file_name, "w", encoding='utf-8') as file:
             file.writelines(line_list)
-
     except Exception as exception:
         raise exception
 
 
 def define_file_type(file_name: str) -> DataFrame:
     try:
-        dtc_df = get_df_from_questionary(file_name)
+        dtc_dataframe = get_df_from_questionary(file_name)
     except UserWarning:
         try:
-            dtc_df = get_df_from_dtc_layout(file_name)
+            dtc_dataframe = get_df_from_dtc_layout(file_name)
         except UserWarning as e:
             raise UserWarning("Can't determine neither Diagnostic_Questionnaire nor DTCs_Layout file")
-    return dtc_df
+    return dtc_dataframe
+
+
+def check_file_name(f_location: str) -> str:
+    ecu_file_name = 'Undefined'
+    ecu_name = f_location.split('ATOM_')[1].split('_')[0]
+    if not ecu_name:
+        raise UserWarning(f"Can't determine any ECU name from file name {f_location}")
+
+    for e_name in ATOM_ECU_code_list:
+        if ecu_name in e_name:
+            ecu_file_name = e_name
+            break
+    ecu_file_name += '.xml'
+    return ecu_file_name
 
 
 if __name__ == '__main__':
@@ -134,11 +162,9 @@ if __name__ == '__main__':
         exit_xml = start_xml
         j = 1
         for dtc in dtc_df.iloc:
-            # it's necessary to check that there are all fields in the dtc
             dtc_dict = dtc.to_dict()
             i = DTC()
             i.code = dtc_dict.get('3-Bytes DTC', 'DTC Code is Not Defined')
-            # i.hex_code_string = dtc_dict.get('Hex Value\n[hex]', dtc_3_byte_to_hex(i.code))
             i.hex_code_string = dtc_3_byte_to_hex(i.code)
             i.name_en = dtc_dict.get('English', "Description isn't found")
             i.name_ru = dtc_dict.get('Russian', "Описание ошибки не найдено")
@@ -148,7 +174,7 @@ if __name__ == '__main__':
             exit_xml += i.xml_with_number(j)
             j += 1
         exit_xml += end_xml
-        ecu_name = file_location.split('ATOM_')[1].split('_')[0]
-        xml_file_writer(f'DTC_{ecu_name}_xml.xml', exit_xml)
+
+        xml_file_writer(check_file_name(file_location), exit_xml)
     except Exception as ex:
         mb.showerror(title='Alarm', message=str(ex))
