@@ -22,7 +22,10 @@ dtc_char_to_byte_dict = dict(
     B=0b10,
     U=0b11
 )
-dtc_layout_headers_list_to_df = ['DTC Display', 'DTC Description', 'Repair action']
+dtc_layout_headers = dict(
+    DTC_Display='DTC Display',
+    DTC_Description='DTC Description',
+    Repair_action='Repair action')
 english_description_list = list()
 ibs_chinese_dtc_list = list()
 cjk_ranges = [
@@ -162,11 +165,13 @@ def get_df_from_dtc_layout(file_locate: str) -> pd.DataFrame:
         dtc_sheet = pd.read_excel(file_locate, sheet_name=DTC_Layout, index_col=1, header=1)
 
         for dtc in dtc_sheet.items():
-            if dtc_layout_headers_list_to_df[0] in dtc[0]:  # DTC Display -> 3-Bytes DTC code + HEX code DTC
-                dtc_sheet = dtc_display(dtc[1], dtc_sheet)
-            elif dtc_layout_headers_list_to_df[1] in dtc[0]:  # DTC Description
+            if dtc_layout_headers['DTC_Display'] in dtc[0]:  # DTC Display -> 3-Bytes DTC code + HEX code DTC
+                # we don't need DTC without DTC code - field "DTC Display"
+                dtc_sheet.dropna(subset=[dtc[0]], inplace=True)
+                dtc_sheet = dtc_display(dtc_sheet[dtc[0]], dtc_sheet)
+            elif dtc_layout_headers['DTC_Description'] in dtc[0]:  # DTC Description
                 dtc_sheet = dtc_description(dtc[1], dtc_sheet)
-            elif dtc_layout_headers_list_to_df[2] in dtc[0]:  # DTC Repair action
+            elif dtc_layout_headers['Repair_action'] in dtc[0]:  # DTC Repair action
                 dtc_sheet = repair_actions(dtc[1], dtc_sheet)
             del dtc_sheet[dtc[0]]
         save_dataframe(dtc_sheet)
