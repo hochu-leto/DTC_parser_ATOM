@@ -1,4 +1,4 @@
-from tkinter import filedialog, Tk, Toplevel, Label
+from tkinter import filedialog
 import pandas as pd
 from deep_translator import GoogleTranslator
 from sys import stdout
@@ -44,7 +44,6 @@ cjk_ranges = [
     (0x2CEB0, 0x2EBEF),
     (0x2F800, 0x2FA1F)
 ]
-# df_dtc_sheet = DataFrame()
 
 
 def dtc_display(dtc_series: Series, df_dtc_sheet: DataFrame) -> DataFrame:
