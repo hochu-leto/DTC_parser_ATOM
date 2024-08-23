@@ -23,9 +23,11 @@ dtc_char_to_byte_dict = dict(
     U=0b11
 )
 dtc_layout_headers = dict(
+
     DTC_Display='DTC Display',
     DTC_Description='DTC Description',
-    Repair_action='Repair action')
+    Repair_action='Repair action',
+    DTC_Number='DTC Number')
 english_description_list = list()
 ibs_chinese_dtc_list = list()
 cjk_ranges = [
@@ -49,11 +51,32 @@ cjk_ranges = [
 ]
 
 
+def check_dtc_display(dtc_code: str) -> str:
+    dtc_code = dtc_code.strip()
+    if ' ' in dtc_code:
+        for s in dtc_code.split(' '):
+            if s[0] in list(dtc_char_to_byte_dict.keys()):
+                return s
+    elif dtc_code[0] in list(dtc_char_to_byte_dict.keys()):
+        return dtc_code.strip()
+    raise UserWarning(f'DTC Display {dtc_code} is incorrect')
+
+
 def dtc_display(dtc_series: Series, df_dtc_sheet: DataFrame) -> DataFrame:
     stdout.write('Checking the DTC Display...\n')
+    dtc_list = list()
+    for i in dtc_series:
+        dtc = ''
+        try:
+            dtc = check_dtc_display(i)
+        except UserWarning as ex:
+            dtc = str(ex)
+            print(str(ex))
+        finally:
+            dtc_list.append(dtc)
     # это, конечно, порнуха
-    df_dtc_sheet['3-Bytes DTC'] = dtc_series
-    df_dtc_sheet['Hex Value\n[hex]'] = [dtc_3_byte_to_hex(i) for i in dtc_series]
+    df_dtc_sheet['3-Bytes DTC'] = dtc_list
+    df_dtc_sheet['Hex Value\n[hex]'] = [dtc_3_byte_to_hex(i) for i in dtc_list]
     return df_dtc_sheet
 
 
@@ -88,9 +111,13 @@ def repair_actions(list_repair_for_translate: Series, df_dtc_sheet: DataFrame) -
         j += 1
         stdout.write(f' \rTranslating {j} from {ln} Repair action')
         stdout.flush()
-        english_sentence = [i for i in repair_for_translate.split() if
-                            not is_str_cjk(i)]
-        english_repair_actions = ' '.join(english_sentence)
+        if str(repair_for_translate) == 'nan':
+            english_repair_actions = ''
+        else:
+            english_sentence = [i for i in repair_for_translate.split() if
+                                not is_str_cjk(i)]
+            english_repair_actions = ' '.join(english_sentence)
+
         english_repair_actions_list.append(english_repair_actions)
         russian_repair_actions_list.append(GoogleTranslator(source=dict_of_languages[language],
                                                             target=dict_of_languages[language_to_translate]
@@ -160,12 +187,20 @@ def get_df_from_questionary(file_locate: str) -> pd.DataFrame:
     raise UserWarning(f'There is no {DTC} sheet in this document, please check')
 
 
-def get_df_from_dtc_layout(file_locate: str) -> pd.DataFrame:
-    if DTC_Layout in pd.ExcelFile(file_locate).sheet_names:
-        dtc_sheet = pd.read_excel(file_locate, sheet_name=DTC_Layout, index_col=1, header=1)
+def check_str_in_sheets(file: str) -> DataFrame | None:
+    for sheet in pd.ExcelFile(file).sheet_names:
+        if DTC_Layout in sheet:
+            return pd.read_excel(file, sheet_name=sheet, index_col=1, header=1)
+    return None
 
+
+def get_df_from_dtc_layout(file_locate: str) -> pd.DataFrame:
+    dtc_sheet = check_str_in_sheets(file_locate)
+
+    if dtc_sheet is not None:
         for dtc in dtc_sheet.items():
-            if dtc_layout_headers['DTC_Display'] in dtc[0]:  # DTC Display -> 3-Bytes DTC code + HEX code DTC
+            if (dtc_layout_headers['DTC_Display'] in dtc[0] or
+                    dtc_layout_headers['DTC_Number'] in dtc[0]):  # DTC Display -> 3-Bytes DTC code + HEX code DTC
                 # we don't need DTC without DTC code - field "DTC Display"
                 dtc_sheet.dropna(subset=[dtc[0]], inplace=True)
                 dtc_sheet = dtc_display(dtc_sheet[dtc[0]], dtc_sheet)

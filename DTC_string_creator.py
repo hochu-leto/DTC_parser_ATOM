@@ -14,9 +14,9 @@ end_xml = '</DTCpool>'
 
 number = 1
 
-ATOM_ECU_code_list = ['A_BD_ADAS_A1F_UDS_1_11 ', 'A_BD_BCM_A1F_UDS_1_11 ', 'A_BD_BPM_A1F_UDS_1_11 ',
-                      'A_BD_CGW_A1F_UDS_1_11 ', 'A_BD_DCMFL_A1F_UDS_1_11 ', 'A_BD_DCMFR_A1F_UDS_1_11 ',
-                      'A_BD_DCMRL_A1F_UDS_1_11 ', 'A_BD_DCMRR_A1F_UDS_1_11 ', 'A_BD_HLL_A1F_UDS_1_11 ',
+ATOM_ECU_code_list = ['A_BD_ADAS_A1F_UDS_1_11', 'A_BD_BCM_A1F_UDS_1_11', 'A_BD_BPM_A1F_UDS_1_11',
+                      'A_BD_CGW_A1F_UDS_1_11', 'A_BD_DCMFL_A1F_UDS_1_11', 'A_BD_DCMFR_A1F_UDS_1_11',
+                      'A_BD_DCMRL_A1F_UDS_1_11 ', 'A_BD_DCMRR_A1F_UDS_1_11 ', 'A_BD_HLL_A1F_UDS_1_11',
                       'A_BD_HLR_A1F_UDS_1_11 ', 'A_BD_PAT_A1F_UDS_1_11 ', 'A_BD_SCUL_A1F_UDS_1_11 ',
                       'A_BD_SCUR_A1F_UDS_1_11 ', 'A_BD_WCBS1_A1F_UDS_1_11 ', 'A_BD_WCBS2_A1F_UDS_1_11 ',
                       'A_CS_ACU_A1F_UDS_1_11 ', 'A_CS_AVAS_A1F_UDS_1_11 ', 'A_CS_CCU1_A1F_UDS_1_11',
@@ -125,6 +125,7 @@ def xml_file_writer(file_name: str, line_list) -> None:
     try:
         with open(file_name, "w", encoding='utf-8') as file:
             file.writelines(line_list)
+        print(f'File {file_name} is stored')
     except Exception as exception:
         raise exception
 
@@ -136,19 +137,34 @@ def define_file_type(file_name: str) -> DataFrame:
         try:
             dtc_dataframe = get_df_from_dtc_layout(file_name)
         except UserWarning as e:
-            raise UserWarning("Can't determine neither Diagnostic_Questionnaire nor DTCs_Layout file")
+            raise UserWarning("Can't determine neither Diagnostic_Questionnaire nor DTCs_Layout file\n" + str(e))
     return dtc_dataframe
 
 
 def check_file_name(f_location: str) -> str:
     ecu_file_name = 'Undefined'
-    ecu_name = f_location.split('ATOM_')[1].split('_')[0]
+    if 'ATOM_' in f_location and file_location.count('_') > 2:
+        ecu_name = f_location.split('ATOM_')[1].split('_')[0]
+    else:
+        ecu_name = ''
     if not ecu_name:
         raise UserWarning(f"Can't determine any ECU name from file name {f_location}")
+    elif ecu_name == 'T-BOX':
+        ecu_name = 'SGW'
+    elif ecu_name == 'NFC Tag':
+        ecu_name = 'NDT'
+    elif ecu_name == 'Switches':
+        ecu_name = 'SWITCH1'
+    elif ecu_name == 'ADCU':
+        ecu_name = 'ADAS'
+    elif ecu_name == 'EBOX':
+        ecu_name = 'ERA'
+    elif ecu_name == 'APTC':
+        ecu_name = 'HVAC'
 
     for e_name in ATOM_ECU_code_list:
         if ecu_name in e_name:
-            ecu_file_name = e_name
+            ecu_file_name = e_name.strip(' ')
             break
     ecu_file_name += '.xml'
     return ecu_file_name
@@ -158,6 +174,7 @@ if __name__ == '__main__':
     file_location = filedialog.askopenfilename(filetypes=[("Excel files", ".xlsx")])
 
     try:
+        print(f'Open file {file_location}')
         dtc_df = define_file_type(file_location)
         exit_xml = start_xml
         j = 1
