@@ -167,7 +167,7 @@ def check_file_name(f_location: str) -> str:
             ecu_file_name = e_name.strip(' ')
             break
     ecu_file_name += '.xml'
-    return ecu_file_name
+    return 'xml\\' + ecu_file_name
 
 
 if __name__ == '__main__':
